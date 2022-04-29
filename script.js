@@ -19,7 +19,7 @@ console.log(arrowAdd100(100));
 // countLetters('We love this city a lot, sometimes', 'e') returns 4
 countLetters = (string,letter)=> console.log(string.match(new RegExp(letter,'gi')).length);
 countLetters('Hello I own two pizzas','e');
-
- countLetters('Hello my name is John', 'i')// returns 1
- countLetters('Hello my name is John', 'h')// returns 2
- countLetters('We love this city a lot, sometimes', 'e')// returns 4
+countLetters("Hello, GOODBYE, test, TEST.",'e');
+ countLetters('Hello my name is John', 'i');// returns 1
+ countLetters('Hello my name is John', 'h');// returns 2
+ countLetters('We love this city a lot, sometimes', 'e');// returns 4
